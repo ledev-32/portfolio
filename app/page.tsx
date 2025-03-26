@@ -1,8 +1,22 @@
+import competences from "./competences/page";
+import technologies from "./technologies/page";
+import projets from "./projets/page";
+import aPropos from "./about/page";
+
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <h1 className="text-2xl">Mon portfolio</h1>
-      <div className="">En cours de développement...</div>        
+    <section className="">
+      <div></div>
+      <div className="">
+      <h1 className="text-6xl text-left">Mon portfolio</h1>
+      <div className="m-1">{aPropos()}</div>
+      <div className="m-8">=</div>
+      <div className="m-1">{competences()}</div>
+      <div className="m-8">=</div>   
+      <div className="m-1">{technologies()}</div> 
+      <div className="m-8">=</div>
+      <div className="m-1">{projets()}</div>
     </div>
+    </section>
   );
 }
