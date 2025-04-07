@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import header from "@/components/header";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/next";
 
 
 export const metadata: Metadata = {
@@ -20,6 +22,8 @@ export default function RootLayout({
       >
         {header()}
         {children}
+        <SpeedInsights/>
+        <Analytics/>
       </body>
     </html>
   );
