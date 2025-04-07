@@ -40,8 +40,8 @@ Travail réalisé en autonomie partielle avec l’aide d’une apprentie en mark
                 Ce projet mobilise les technologie suivantes : PHP, SQL, HTML, CSS, JavaScript.
                 Travail réalisé en mode projet en binôme.
 
-                    <a href="/projets/gsb-web">
-                        <img src="gsb-web-consultation.png" alt="Screenshot du rendu de l'application" className='w-3/4 md:w-2/4 ml-auto mr-auto py-4'/>
+                    <a href="/projets/m2l-web">
+                        <img src="m2l-web-consultation.png" alt="Screenshot du rendu de l'application" className='w-3/4 md:w-2/4 ml-auto mr-auto py-4'/>
                     </a>
                 </div>
             </div>
