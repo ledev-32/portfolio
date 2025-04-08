@@ -40,9 +40,9 @@ function competences() {
                 </div>
             </div>
 
-
-
-
+            <div className='pt-8'>
+                <img src="h-bar-i.png" alt="Barre de style" className="px-4 md:px-24 h-[6px] w-full" />
+            </div>
         </div>
     )
 }
