@@ -2,7 +2,7 @@ import React from 'react'
 
 function competences() {
     return (
-        <div className=''>
+        <div className='bg-violet-600/60 text-white p-3 rounded-2xl'>
             <h2 className='text-4xl'>Mes compétences</h2>
             <div className=''>Au cours de mes 2 années de BTS, j'ai pu développer de multiples compétences techniques <br />
                 Ces différentes connaissances sont liées aux cours mais tout aussi bien grâce aux stages

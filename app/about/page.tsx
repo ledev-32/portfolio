@@ -2,7 +2,7 @@ import React from 'react'
 
 function aPropos() {
   return (
-    <div className='p-2 flex flex-col'>
+    <div className='p-2 flex flex-col text-white bg-violet-600/60 rounded-2xl'>
       <h2 className='text-4xl'>A propos de moi</h2>
       <div className='text-justify mr-auto ml-auto p-4 w-full md:w-2/3 bg-black/70 rounded-3xl'>
       Je m'appelle Rémi SALARD, étudiant en deuxième année de BTS Services Informatiques aux Organisations option SLAM. 

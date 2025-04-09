@@ -27,6 +27,18 @@ function gsbWeb() {
                 Attention, pour accéder aux ressources, vous devez envoyer une demande d'authorisation qui sera validée. Aucune collecte des adresses mail n'est effectuée <br />
                 <a href="https://drive.google.com/drive/folders/1FSOy5TkSIB70K-bwJCU7CMT0N2soc7N2?usp=sharing" target="_blank" rel="Lien vers le dossier drive gsb-web">Ressources gsb-web</a>
             </div>
+
+            <div>
+                Compétences travaillées : 
+                        <ul className='grid grid-cols-3 place-content-stretch gap-1'>
+                            <li className='mr-auto ml-auto bg-white p-2 text-black rounded-3xl border-1 border-solid border-black'>HTML</li>
+                            <li className='mr-auto ml-auto bg-white p-2 text-black rounded-3xl border-1 border-solid border-black'>CSS</li>
+                            <li className='mr-auto ml-auto bg-white p-2 text-black rounded-3xl border-1 border-solid border-black'>JavaScript</li>
+                            <li className='mr-auto ml-auto bg-white text-black p-2 rounded-3xl border-1 border-solid border-black'>TypeScript</li>
+                            <li className='mr-auto ml-auto bg-white text-black p-2 rounded-3xl border-1 border-solid border-black'>PHP</li>
+                            <li className='mr-auto ml-auto bg-white text-black p-2 rounded-3xl border-1 border-solid border-black'>React</li>
+                        </ul>
+            </div>
         </div>
     )
 }

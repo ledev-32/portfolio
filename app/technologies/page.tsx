@@ -2,92 +2,95 @@ import React from 'react'
 
 function technologies() {
     return (
-        <div className=''>
-            <h2 className='text-4xl'>Les technologies</h2>
-            <div className=''>
-                Ma formation m'a amené à travailler avec différentes technologies plus ou moins sophistiquées et modernes
+      <div className='bg-violet-600/60 text-white p-4 rounded-2xl'>
+        <h2 className='text-3xl md:text-4xl font-semibold mb-4'>Les technologies</h2>
+        <p className='mb-4 text-lg text-white/80'>
+          Ma formation m'a amené à travailler avec différentes technologies plus ou moins sophistiquées et modernes.
+        </p>
+  
+        <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-3'>
+          <div className='bg-purple-500 text-xl md:text-2xl text-center text-white/90 font-bold py-3 rounded-lg shadow-md h-fit'>
+            Langages de programmation
+            <div className='bg-black/70 p-3 text-lg font-normal rounded-b-lg'>
+              <h3 className='text-white/80 font-semibold mb-2'>Développement web</h3>
+              <ul className='grid grid-cols-2 md:grid-cols-3 gap-2'>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>HTML</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>CSS</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>JavaScript</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>TypeScript</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>PHP</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>React</li>
+              </ul>
+              <h3 className='text-white/80 font-semibold mt-3 mb-2'>Développement applications lourdes</h3>
+              <ul className='grid grid-cols-2 md:grid-cols-3 gap-2'>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Java</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>C#</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Kotlin</li>
+              </ul>
+              <h3 className='text-white/80 font-semibold mt-3 mb-2'>Autres langages de programmation</h3>
+              <ul className='grid grid-cols-2 md:grid-cols-3 gap-2'>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Python</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>C++</li>
+              </ul>
             </div>
-
-            {/* dsdsd */}
-
-            <div className='flex flex-col md:grid md:grid-cols-3 p-4 gap-4'>
-                <div className='bg-black/70 text-2xl text-center my-1 md:mx-1 text-white font-bold pt-3 h-fit rounded-2xl'>
-                    Langages de programmation
-                    <div className='bg-purple-500 p-3 text-lg font-normal'>
-                        Développement web
-                        <ul className='grid grid-cols-3 place-content-stretch gap-1'>
-                            <li className='mr-auto ml-auto bg-white p-2 text-black rounded-3xl border-1 border-solid border-black'>HTML</li>
-                            <li className='mr-auto ml-auto bg-white p-2 text-black rounded-3xl border-1 border-solid border-black'>CSS</li>
-                            <li className='mr-auto ml-auto bg-white p-2 text-black rounded-3xl border-1 border-solid border-black'>JavaScript</li>
-                            <li className='mr-auto ml-auto bg-white text-black p-2 rounded-3xl border-1 border-solid border-black'>TypeScript</li>
-                            <li className='mr-auto ml-auto bg-white text-black p-2 rounded-3xl border-1 border-solid border-black'>PHP</li>
-                            <li className='mr-auto ml-auto bg-white text-black p-2 rounded-3xl border-1 border-solid border-black'>React</li>
-                        </ul>
-                        Développement applications lourdes
-                        <ul className='grid grid-cols-3 place-content-stretch gap-1 '>
-                            <li className='mr-auto ml-auto bg-white p-2 text-black rounded-3xl border-1 border-solid border-black'>Java</li>
-                            <li className='mr-auto ml-auto bg-white p-2 text-black rounded-3xl border-1 border-solid border-black'>C#</li>
-                            <li className='mr-auto ml-auto bg-white p-2 text-black rounded-3xl border-1 border-solid border-black'>Kotlin</li>
-                        </ul>
-                        Autres langages de programmation
-                        <ul className='grid grid-cols-3 place-content-stretch gap-1 '>
-                            <li className='mr-auto ml-auto bg-white p-2 text-black rounded-3xl border-1 border-solid border-black'>Python</li>
-                            <li className='mr-auto ml-auto bg-white p-2 text-black rounded-3xl border-1 border-solid border-black'>C++</li>
-                        </ul>
-                    </div>
-                </div>
-                <div className='bg-black/70 text-2xl text-center my-1 md:mx-1 text-white font-bold pt-3 h-fit rounded-2xl'>
-                    Frameworks
-                    <div className='bg-purple-500 p-3 text-lg'>
-                        Développement web
-                        <ul className='grid grid-cols-3 place-content-stretch gap-1 '>
-                            <li className='mr-auto ml-auto bg-white p-2 text-black rounded-3xl border-1 border-solid border-black'>Laravel</li>
-                            <li className='mr-auto ml-auto bg-white p-2 text-black rounded-3xl border-1 border-solid border-black'>NextJS</li>
-                        </ul>
-                    </div>
-                </div>
-                <div className='bg-black/70 text-2xl text-center my-1 md:mx-1 text-white font-bold pt-3 h-fit rounded-2xl'>
-                    SGBD
-                    <div className='bg-purple-500 p-3 text-lg'>
-                        <ul className='grid grid-cols-3 place-content-stretch gap-1 '>
-                            <li className='mr-auto ml-auto bg-white p-2 text-black rounded-3xl border-1 border-solid border-black'>MySQL</li>
-                            <li className='mr-auto ml-auto bg-white p-2 text-black rounded-3xl border-1 border-solid border-black'>PostGreSQL</li>
-                        </ul>
-                    </div>
-                </div>
-                <div className='bg-black/70 text-2xl text-center my-1 md:mx-1 text-white font-bold pt-3 h-fit rounded-2xl'>
-                    IDE
-                    <div className='bg-purple-500 p-3 text-lg'>
-                        <ul className='grid grid-cols-3 place-content-stretch gap-1 '>
-                            <li className='mr-auto ml-auto bg-white p-2 text-black rounded-3xl border-1 border-solid border-black'>Visual Studio</li>
-                            <li className='mr-auto ml-auto bg-white p-2 text-black rounded-3xl border-1 border-solid border-black'>Visual Studio Code</li>
-                            <li className='mr-auto ml-auto bg-white p-2 text-black rounded-3xl border-1 border-solid border-black'>Android Studio</li>
-                            <li className='mr-auto ml-auto bg-white p-2 text-black rounded-3xl border-1 border-solid border-black'>Eclipse for java</li>
-                        </ul>
-                    </div>
-                </div>
-                <div className='bg-black/70 text-2xl text-center my-1 md:mx-1 text-white font-bold pt-3 h-fit rounded-2xl'>
-                    Gestion
-                    <div className='bg-purple-500 p-3 text-lg'>
-                        Gestion des incidents
-                        <ul className='grid grid-cols-3 place-content-stretch gap-1 '>
-                            <li className='mr-auto ml-auto bg-white p-2 text-black rounded-3xl border-1 border-solid border-black'>GLPI</li>
-                        </ul>
-                        Gestion de projet et développement collaboratif
-                        <ul className='grid grid-cols-3 place-content-stretch gap-1'>
-                            <li className='mr-auto ml-auto bg-white p-2 text-black rounded-3xl border-1 border-solid border-black'>Github</li>
-                            <li className='mr-auto ml-auto bg-white p-2 text-black rounded-3xl border-1 border-solid border-black'>Google Workspace</li>
-                            <li className='mr-auto ml-auto bg-white p-2 text-black rounded-3xl border-1 border-solid border-black'>Microsoft Teams</li>
-                        </ul>
-                    </div>
-                </div>
+          </div>
+  
+          <div className='bg-purple-500 text-xl md:text-2xl text-center text-white/90 font-bold py-3 rounded-lg shadow-md h-fit'>
+            Frameworks
+            <div className='bg-black/70 p-3 text-lg font-normal rounded-b-lg'>
+              <h3 className='text-white/80 font-semibold mb-2'>Développement web</h3>
+              <ul className='grid grid-cols-2 md:grid-cols-3 gap-2'>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Laravel</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>NextJS</li>
+              </ul>
             </div>
-
-            <div className='pt-8'>
-                <img src="h-bar.png" alt="Barre de style" className="px-4 md:px-24 h-[6px] w-full" />
+          </div>
+  
+          <div className='bg-purple-500 text-xl md:text-2xl text-center text-white/90 font-bold py-3 rounded-lg shadow-md h-fit'>
+            SGBD
+            <div className='bg-black/70 p-3 text-lg font-normal rounded-b-lg'>
+              <ul className='grid grid-cols-2 md:grid-cols-3 gap-2'>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>MySQL</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>PostGreSQL</li>
+              </ul>
             </div>
+          </div>
+  
+          <div className='bg-purple-500 text-xl md:text-2xl text-center text-white/90 font-bold py-3 rounded-lg shadow-md h-fit'>
+            IDE
+            <div className='bg-black/70 p-3 text-lg font-normal rounded-b-lg'>
+              <ul className='grid grid-cols-2 md:grid-cols-3 gap-2'>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Visual Studio</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Visual Studio Code</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Android Studio</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Eclipse for java</li>
+              </ul>
+            </div>
+          </div>
+  
+          <div className='bg-purple-500 text-xl md:text-2xl text-center text-white/90 font-bold py-3 rounded-lg shadow-md h-fit'>
+            Gestion
+            <div className='bg-black/70 p-3 text-lg font-normal rounded-b-lg'>
+              <h3 className='text-white/80 font-semibold mb-2'>Gestion des incidents</h3>
+              <ul className='grid grid-cols-2 md:grid-cols-3 gap-2'>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>GLPI</li>
+              </ul>
+              <h3 className='text-white/80 font-semibold mt-3 mb-2'>Gestion de projet et développement collaboratif</h3>
+              <ul className='grid grid-cols-2 md:grid-cols-3 gap-2'>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Github</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Google Workspace</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Microsoft Teams</li>
+              </ul>
+            </div>
+          </div>
         </div>
-    )
-}
+  
+        <div className='pt-8'>
+          <img src="h-bar.png" alt="Barre de style" className="px-4 md:px-24 h-[6px] w-full" />
+        </div>
+      </div>
+    );
+  }
+  
 
 export default technologies
