@@ -11,10 +11,10 @@ function header() {
 
                 <nav className="flex flex-wrap justify-center gap-4 md:gap-6 text-sm md:text-base">
                     <a href="/" className="hover:underline">Accueil</a>
-                    <a href="#about" className="hover:underline">À propos</a>
-                    <a href="#competences" className="hover:underline">Compétences</a>
-                    <a href="#technologies" className="hover:underline">Technologies</a>
-                    <a href="#projets" className="hover:underline">Projets</a>
+                    <a href="./#about" className="hover:underline">À propos</a>
+                    <a href="./#competences" className="hover:underline">Compétences</a>
+                    <a href="./#technologies" className="hover:underline">Technologies</a>
+                    <a href="./#projets" className="hover:underline">Projets</a>
                 </nav>
             </div>
         </header>

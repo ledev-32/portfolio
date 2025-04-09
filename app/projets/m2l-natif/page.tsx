@@ -1,34 +1,59 @@
 import React from 'react'
 import Image from 'next/image'
 
-function m2lWeb() {
+function m2lNatif() {
     return (
-        <div className=''>
-            <h2 className='text-4xl'>GBS - Web</h2>
-            <div className=''>
-                Contexte : <br />
-                Le laboratoire GSB a besoin d'une application web accessible par les commerciaux du laboratoire faisant des visites chez les praticiens pour des motifs de visites différents
+      <div className='bg-violet-600/60 text-white p-4 rounded-2xl'>
+        <h2 className='text-3xl md:text-4xl font-semibold mb-6'>M2L - Natif</h2>
+        <div className='mb-6 text-lg text-white/90 space-y-4'>
+          <div>
+            <h3 className='text-xl font-semibold mb-2'>Contexte</h3>
+            <p>
+              La Maison des Ligues de Lille a besoin d'une application client
+              lourd pour permettre au secrétariat de gérer les adhérents des
+              différents clubs sportifs.
+            </p>
+          </div>
+          <div>
+            <h3 className='text-xl font-semibold mb-2'>Compétences travaillées</h3>
+            <ul className='grid grid-cols-2 md:grid-cols-3 gap-2'>
+              <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>
+                Gérer le patrimoine informatique
+              </li>
+              <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>
+                Travailler en mode projet
+              </li>
+              <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>
+                Mettre à disposition des utilisateurs un service informatique
+              </li>
+              <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>
+                Organiser son développement professionnel
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 className='text-xl font-semibold mb-2'>Présentation rapide</h3>
+            <p>
+              La personne s'occupant de la gestion des adhérents peut accéder à une
+              interface graphique pour gérer les adhérents ainsi que pour avoir un
+              annuaire des clubs.
+            </p>
+            <p>
+              L'application native est développée en Java avec WindowBuilder sur
+              Eclipse For Java ainsi que la manipulation de fichiers XML.
+            </p>
+            <div className='mb-4'>
+              <h4 className='text-lg font-semibold mb-2'>Fenêtre principale</h4>
+              <img
+                src='/m2l-natif.png'
+                alt="Screenshot de la fenêtre principale"
+                className='w-full rounded-md shadow-sm md:w-2/3 md:mr-auto md:ml-auto'
+              />
             </div>
-            <div>
-                En voici la présentation rapide :
-                Les commerciaux, après authentification, ont accès à la consultation et la saisie de rapports de visite. La modification et la suppression se fait à partir d'un compte avec des droits plus hauts.    
-                L'application web est basée sur la technologie PHP sur un serveur Apache en local sur le réseau du lycée.
-                <h3>Page d'authentification</h3>
-                <img src="/gsb-web-login.png" alt="Screenshot de la page d'authentification" />
-
-                <h3>Page de consultation des rapports</h3>
-                <img src="/gsb-web-consultation.png" alt="Screenshot de la page d'authentification" />
-
-                <h3>Page de saisie d'un rapport</h3>
-                <img src="/gsb-web-insert.png" alt="Screenshot de la page d'authentification" />
-            </div>
-            <div>
-                Documentation :
-                Attention, pour accéder aux ressources, vous devez envoyer une demande d'authorisation qui sera validée. Aucune collecte des adresses mail n'est effectuée <br />
-                <a href="https://drive.google.com/drive/folders/1FSOy5TkSIB70K-bwJCU7CMT0N2soc7N2?usp=sharing" target="_blank" rel="Lien vers le dossier drive gsb-web">Ressources gsb-web</a>
-            </div>
+          </div>
         </div>
-    )
-}
+      </div>
+    );
+  }
 
-export default m2lWeb
+export default m2lNatif

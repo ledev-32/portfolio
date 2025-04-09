@@ -24,6 +24,13 @@ function projets() {
                   className='w-full md:w-1/2 rounded-md shadow-sm  md:mr-auto md:ml-auto'
                 />
               </a>
+              <p>Liste des compétences travaillées : </p>
+              <ul className='grid grid-cols-2 md:grid-cols-3 gap-2'>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Gérer le patrimoine informatique</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Travailler en mode projet</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Mettre à disposition des utilisateurs un service informatique</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Organiser son développement professionnel</li>
+              </ul>
             </div>
           </div>
   
@@ -42,6 +49,13 @@ function projets() {
                   className='w-full rounded-md shadow-sm md:w-1/2 md:mr-auto md:ml-auto'
                 />
               </a>
+              <p>Liste des compétences travaillées : </p>
+              <ul className='grid grid-cols-2 md:grid-cols-3 gap-2'>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Gérer le patrimoine informatique</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Développer la présence en ligne de l'organisation</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Travailler en mode projet</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Mettre à disposition des utilisateurs un service informatique</li>
+              </ul>
             </div>
           </div>
   
@@ -60,6 +74,12 @@ function projets() {
                   className='w-full rounded-md shadow-sm md:w-1/2 md:mr-auto md:ml-auto'
                 />
               </a>
+              <p>Liste des compétences travaillées : </p>
+              <ul className='grid grid-cols-2 md:grid-cols-3 gap-2'>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Gérer le patrimoine informatique</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Développer la présence en ligne de l'organisation</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Travailler en mode projet</li>
+              </ul>
             </div>
           </div>
   
@@ -73,11 +93,18 @@ function projets() {
               </p>
               <a href="/projets/m2l-natif" className='block'>
                 <img
-                  src="gsb-web-consultation.png"
+                  src="m2l-natif.png"
                   alt="Screenshot du rendu de l'application"
                   className='w-full rounded-md shadow-sm md:w-1/2 md:mr-auto md:ml-auto'
                 />
               </a>
+              <p>Liste des compétences travaillées : </p>
+              <ul className='grid grid-cols-2 md:grid-cols-3 gap-2'>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Gérer le patrimoine informatique</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Travailler en mode projet</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Mettre à disposition des utilisateurs un service informatique</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Organiser son développement professionnel</li>
+              </ul>
             </div>
           </div>
   
@@ -88,7 +115,14 @@ function projets() {
                 Création d’une application mobile (locale avec base de données en réseau local) pour le contexte M2L (Maison des Ligues) permettant la gestion et le suivi des inscriptions aux formations ainsi qu'au catalogue des formations proposées.
                 Ce projet mobilise les technologies suivantes : Android Studio, Kotlin, SQL, API REST.
                 Travail réalisé seul.
-              </p>             
+              </p>         
+              <p>Liste des compétences travaillées : </p>
+              <ul className='grid grid-cols-2 md:grid-cols-3 gap-2'>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Gérer le patrimoine informatique</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Travailler en mode projet</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Mettre à disposition des utilisateurs un service informatique</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Organiser son développement professionnel</li>
+              </ul>    
             </div>
           </div>
   
@@ -101,13 +135,19 @@ function projets() {
                 Ce projet utilise les technologies suivantes : HTML/CSS/JavaScript, MySQL, PHP, SwaggerUI.
                 Travail réalisé en autonomie partielle avec l’aide de mon tuteur de stage en cas de grandes questions liés à des obstacles importants.
               </p>
-              <a href="/projets/newpacman" className='block'>
+              <a href="/projets/new-pacman" className='block'>
                 <img
-                  src="gsb-web-consultation.png"
+                  src="new-pacman.png"
                   alt="Screenshot du rendu de l'application"
                   className='w-full rounded-md shadow-sm md:w-1/2 md:mr-auto md:ml-auto'
                 />
               </a>
+              <p>Liste des compétences travaillées : </p>
+              <ul className='grid grid-cols-2 md:grid-cols-3 gap-2'>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Gérer le patrimoine informatique</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Travailler en mode projet</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Organiser son développement professionnel</li>
+              </ul>
             </div>
           </div>
         </div>
