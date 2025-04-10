@@ -9,32 +9,31 @@ function projets() {
         </p>
   
         <div className='space-y-8'>
-          <div className='rounded-xl shadow-md overflow-hidden'>
-            <h3 className='text-2xl font-semibold bg-purple-500 py-3 px-4'><a href="/projets/my-parera" className='hover:underline hover:text-foreground'>MyParera</a></h3>
+
+        <div className='rounded-xl shadow-md overflow-hidden'>
+            <h3 className='text-2xl font-semibold bg-purple-500 py-3 px-4'><a href="/projets/glpi" className='hover:underline hover:text-foreground'>GLPI</a></h3>
             <div className='bg-black/70 text-white p-4'>
               <p className='text-lg text-justify mb-4'>
-                Conception et développement du prototype d’un intranet pour le Groupe PARERA (entreprise de topographie, cartographie). Le prototype suit un cahier des charges élaboré par le Responsable Services d’Information et le Responsable Communication et Marketing. L’intranet permet l’affichage des actualités d’entreprises (flux LinkedIn), la rédaction d’articles par les collaborateurs ainsi que l’affichage et le lien vers des composants Microsoft (seulement pour les utilisateurs authentifiés).
-                Ce projet utilise les technologies suivantes : Next.JS, PostGreSQL, API Microsoft Graph.
-                Travail réalisé en autonomie partielle avec l’aide d’une apprentie en marketing et communication ainsi qu’avec le Responsable Services d’Informations.
+              Mission de découverte de l'outil GLPI permettant la gestion de parc informatique, la création et le suivi d'incidents selon les différentes rubriques (système, matériel, réseaux) ainsi que la génération de statistiques en rapport au parc informatique
               </p>
-              <a href="/projets/my-parera" className='block'>
+              <a href="/projets/glpi" className='block'>
                 <img
-                  src="myparera.png"
+                  src="glpi.png"
                   alt="Screenshot du rendu de l'application"
-                  className='w-full md:w-1/2 rounded-md shadow-sm  md:mr-auto md:ml-auto'
+                  className='w-full rounded-md shadow-sm md:w-1/2 md:mr-auto md:ml-auto'
                 />
               </a>
               <p>Liste des compétences travaillées : </p>
               <ul className='grid grid-cols-2 md:grid-cols-3 gap-2'>
                 <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Gérer le patrimoine informatique</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Répondre aux incidents et aux demandes d'assistance et d'évolution</li>
                 <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Travailler en mode projet</li>
-                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Mettre à disposition des utilisateurs un service informatique</li>
                 <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Organiser son développement professionnel</li>
               </ul>
             </div>
           </div>
-  
-          <div className='rounded-xl shadow-md overflow-hidden'>
+
+        <div className='rounded-xl shadow-md overflow-hidden'>
             <h3 className='text-2xl font-semibold bg-purple-500 py-3 px-4'><a href="/projets/gsb-web" className='hover:underline hover:text-foreground'>GSB - Web</a></h3>
             <div className='bg-black/70 text-white p-4'>
               <p className='text-lg text-justify mb-4'>
@@ -58,7 +57,7 @@ function projets() {
               </ul>
             </div>
           </div>
-  
+
           <div className='rounded-xl shadow-md overflow-hidden'>
             <h3 className='text-2xl font-semibold bg-purple-500 py-3 px-4'><a href="/projets/m2l-web" className='hover:underline hover:text-foreground'>M2L - Web</a></h3>
             <div className='bg-black/70 text-white p-4'>
@@ -82,7 +81,7 @@ function projets() {
               </ul>
             </div>
           </div>
-  
+
           <div className='rounded-xl shadow-md overflow-hidden'>
             <h3 className='text-2xl font-semibold bg-purple-500 py-3 px-4'><a href="/projets/m2l-natif" className='hover:underline hover:text-foreground'>M2L - Natif</a></h3>
             <div className='bg-black/70 text-white p-4'>
@@ -125,7 +124,7 @@ function projets() {
               </ul>    
             </div>
           </div>
-  
+
           <div className='rounded-xl shadow-md overflow-hidden'>
             <h3 className='text-2xl font-semibold bg-purple-500 py-3 px-4'><a href="/projets/new-pacman" className='hover:underline hover:text-foreground'>NewPacman</a></h3>
             <div className='bg-black/70 text-white p-4'>
@@ -145,11 +144,39 @@ function projets() {
               <p>Liste des compétences travaillées : </p>
               <ul className='grid grid-cols-2 md:grid-cols-3 gap-2'>
                 <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Gérer le patrimoine informatique</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Répondre aux incidents et aux demandes d'assistance et d'évolution</li>
                 <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Travailler en mode projet</li>
                 <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Organiser son développement professionnel</li>
               </ul>
             </div>
           </div>
+
+          <div className='rounded-xl shadow-md overflow-hidden'>
+            <h3 className='text-2xl font-semibold bg-purple-500 py-3 px-4'><a href="/projets/my-parera" className='hover:underline hover:text-foreground'>MyParera</a></h3>
+            <div className='bg-black/70 text-white p-4'>
+              <p className='text-lg text-justify mb-4'>
+                Conception et développement du prototype d’un intranet pour le Groupe PARERA (entreprise de topographie, cartographie). Le prototype suit un cahier des charges élaboré par le Responsable Services d’Information et le Responsable Communication et Marketing. L’intranet permet l’affichage des actualités d’entreprises (flux LinkedIn), la rédaction d’articles par les collaborateurs ainsi que l’affichage et le lien vers des composants Microsoft (seulement pour les utilisateurs authentifiés).
+                Ce projet utilise les technologies suivantes : Next.JS, PostGreSQL, API Microsoft Graph.
+                Travail réalisé en autonomie partielle avec l’aide d’une apprentie en marketing et communication ainsi qu’avec le Responsable Services d’Informations.
+              </p>
+              <a href="/projets/my-parera" className='block'>
+                <img
+                  src="myparera.png"
+                  alt="Screenshot du rendu de l'application"
+                  className='w-full md:w-1/2 rounded-md shadow-sm  md:mr-auto md:ml-auto'
+                />
+              </a>
+              <p>Liste des compétences travaillées : </p>
+              <ul className='grid grid-cols-2 md:grid-cols-3 gap-2'>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Gérer le patrimoine informatique</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Travailler en mode projet</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Mettre à disposition des utilisateurs un service informatique</li>
+                <li className='bg-white text-black py-2 px-3 rounded-full text-center text-sm'>Organiser son développement professionnel</li>
+              </ul>
+            </div>
+          </div>        
+  
+          
         </div>
       </div>
     );
